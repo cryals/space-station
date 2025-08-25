@@ -6,3 +6,25 @@ Entries:
   id: 1
   time: '2025-08-25T05:57:00.000000+00:00'
   url: https://github.com/OpenSpace14/space-station/
+- author: OpenSpace Team
+  changes:
+  - message: Добавлены Анимированные фоны в лобби.
+    type: Add
+  id: 602
+  time: '2025-08-25T09:33:46.000000+00:00'
+  url: https://github.com/OpenSpace14/space-station/pull/6
+- author: OpenSpace Team
+  changes:
+  - message: Изменёны Шрифты.
+    type: Tweak
+  id: 603
+  time: '2025-08-25T09:33:46.000000+00:00'
+  url: https://github.com/OpenSpace14/space-station/pull/6
+- author: OpenSpace Team
+  changes:
+  - message: Readme.
+    type: Tweak
+  id: 604
+  time: '2025-08-25T09:33:46.000000+00:00'
+  url: https://github.com/OpenSpace14/space-station/pull/6
+
