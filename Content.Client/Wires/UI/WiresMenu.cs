@@ -317,7 +317,7 @@ namespace Content.Client.Wires.UI
                     VerticalAlignment = VAlignment.Bottom,
                     HorizontalAlignment = HAlignment.Center,
                     Align = Label.AlignMode.Center,
-                    FontOverride = _resourceCache.GetFont("/Fonts/NotoSansDisplay/NotoSansDisplay-Bold.ttf", 12),
+                    FontOverride = _resourceCache.GetFont("/Fonts/Ubuntu/UbuntuNerdFont-Regular.ttf", 12),
                     FontColorOverride = Color.Gray,
                     ToolTip = letter.Name(),
                     MouseFilter = MouseFilterMode.Stop
