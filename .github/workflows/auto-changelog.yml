@@ -50,6 +50,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PR_NUMBER: ${{ steps.extract_pr.outputs.pr_number }}
+          CHANGELOG_FILE_PATH: "Resources/Changelog/ChangelogOS.yml"
         run: |
           python ./Tools/_OS/update_changelog.py
 
