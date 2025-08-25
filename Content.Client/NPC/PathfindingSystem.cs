@@ -165,7 +165,7 @@ namespace Content.Client.NPC
             _system = system;
             _mapSystem = mapSystem;
             _transformSystem = transformSystem;
-            _font = new VectorFont(cache.GetResource<FontResource>("/Fonts/NotoSans/NotoSans-Regular.ttf"), 10);
+            _font = new VectorFont(cache.GetResource<FontResource>("/Fonts/UbuntuSans/UbuntuSansNerdFont-Regular.ttf"), 10);
         }
 
         protected override void Draw(in OverlayDrawArgs args)

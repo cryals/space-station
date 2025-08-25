@@ -28,9 +28,10 @@ namespace Content.Client.Stylesheets
             return resCache.GetFont
             (
                 // Ew, but ok
+                // OS bubuntu font meow
                 new[]
                 {
-                    $"/Fonts/NotoSans{ds}/NotoSans{ds}-{variation}.ttf",
+                    $"/Fonts/UbuntuSans/UbuntuSansNerdFont-{variation}.ttf",
                     $"/Fonts/NotoSans/NotoSansSymbols-{sv}.ttf",
                     "/Fonts/NotoSans/NotoSansSymbols2-Regular.ttf"
                 },
@@ -183,10 +184,10 @@ namespace Content.Client.Stylesheets
             var notoSansBold16 = resCache.NotoStack(variation: "Bold", size: 16);
             var notoSansBold18 = resCache.NotoStack(variation: "Bold", size: 18);
             var notoSansBold20 = resCache.NotoStack(variation: "Bold", size: 20);
-            var notoSansMono = resCache.GetFont("/EngineFonts/NotoSans/NotoSansMono-Regular.ttf", size: 12);
-            var robotoMonoBold11 = resCache.GetFont("/Fonts/RobotoMono/RobotoMono-Bold.ttf", size: 11);
-            var robotoMonoBold12 = resCache.GetFont("/Fonts/RobotoMono/RobotoMono-Bold.ttf", size: 12);
-            var robotoMonoBold14 = resCache.GetFont("/Fonts/RobotoMono/RobotoMono-Bold.ttf", size: 14);
+            var notoSansMono = resCache.GetFont("/Fonts/UbuntuSans/UbuntuSansNerdFont-Regular.ttf", size: 12);
+            var robotoMonoBold11 = resCache.GetFont("/Fonts/UbuntuMono/UbuntuMonoNerdFont-Regular.ttf", size: 11);
+            var robotoMonoBold12 = resCache.GetFont("/Fonts/UbuntuMono/UbuntuMonoNerdFont-Regular.ttf", size: 12);
+            var robotoMonoBold14 = resCache.GetFont("/Fonts/UbuntuMono/UbuntuMonoNerdFont-Regular.ttf", size: 14);
 
             var windowHeaderTex = resCache.GetTexture("/Textures/Interface/Nano/window_header.png");
             var windowHeader = new StyleBoxTexture
