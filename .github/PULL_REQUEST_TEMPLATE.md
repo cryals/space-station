@@ -1,36 +1,28 @@
-<!-- Guidelines: https://docs.spacestation14.io/en/getting-started/pr-guideline -->
+<!-- ЭТО НЕ РЕПОЗИТОРИЙ WIZDENS. ЕСЛИ ВЫ ХОТИТЕ ДОБАВИТЬ СВОИ ИЗМЕНЕНИЯ НА ВСЕ СЕРВЕРА, СОЗДАЙТЕ PR В РЕПОЗИТОРИИ WIZDENS -->
 
-## About the PR
-<!-- What did you change? -->
+## Краткое описание
+<!-- Что вы предлагаете изменить в своём PR? -->
 
-## Why / Balance
-<!-- Discuss how this would affect game balance or explain why it was changed. Link any relevant discussions or issues. -->
+## Почему это необходимо добавить
+<!-- Какая причина для внесения этих изменений? Пожалуйста, прикрепите ссылки на обсуждения и баг-репорты. Опишите, как это повлияет на игровой баланс. -->
 
-## Technical details
-<!-- Summary of code changes for easier review. -->
-
-## Media
-<!-- Attach media if the PR makes ingame changes (clothing, items, features, etc). 
-Small fixes/refactors are exempt. Media may be used in SS14 progress reports with credit. -->
-
-## Requirements
-<!-- Confirm the following by placing an X in the brackets [X]: -->
-- [ ] I have read and am following the [Pull Request and Changelog Guidelines](https://docs.spacestation14.com/en/general-development/codebase-info/pull-request-guidelines.html).
-- [ ] I have added media to this PR or it does not require an ingame showcase.
-<!-- You should understand that not following the above may get your PR closed at maintainer’s discretion -->
-
-## Breaking changes
-<!-- List any breaking changes, including namespaces, public class/method/field changes, prototype renames; and provide instructions for fixing them.
-This will be posted in #codebase-changes. -->
-
-**Changelog**
-<!-- Add a Changelog entry to make players aware of new features or changes that could affect gameplay.
-Make sure to read the guidelines and take this Changelog template out of the comment block in order for it to show up.
-Changelog must have a :cl: symbol, so the bot recognizes the changes and adds them to the game's changelog. -->
+## Медиа (Видео/Скриншоты)
 <!--
-:cl:
-- add: Added fun!
-- remove: Removed fun!
-- tweak: Changed fun!
-- fix: Fixed fun!
+Если ваш PR содержит изменения в игре, обязательно прикрепите скриншоты или видео с демонстрацией изменений.
+-->
+
+## Проверки
+<!-- Чекбоксы для ускорения ревью вашего PR -->
+- [ ] Мне не требуется помощь для завершения PR.
+- [ ] Перед публикацией/запросом ревью PR я проверил(а), что изменения работают корректно.
+- [ ] Я добавил(а) скриншоты/видео изменений, или этот PR не затрагивает игровую механику.
+
+**Список изменений**
+<!--
+Если вы хотите, чтобы игроки узнали об изменениях из этого PR, укажите их по шаблону ниже. Кратко и информативно.
+:cl: КОМАНДА STARLIGHT
+- add: Добавлен ФурСьют.
+- remove: Удалено Space.
+- tweak: Изменён SS14.
+- fix: Исправлено MeowMafiaBro.
 -->
