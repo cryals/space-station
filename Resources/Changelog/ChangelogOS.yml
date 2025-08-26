@@ -27,4 +27,11 @@ Entries:
   id: 604
   time: '2025-08-25T09:33:46.000000+00:00'
   url: https://github.com/OpenSpace14/space-station/pull/6
+- author: AL-S
+  changes:
+  - message: Новые спрайты
+    type: Tweak
+  id: 1305
+  time: '2025-08-26T06:32:35.000000+00:00'
+  url: https://github.com/OpenSpace14/space-station/pull/7
 
